@@ -1,0 +1,11 @@
+[package]
+name = "trie-root-test"
+version = "0.21.0"
+authors = ["Parity Technologies <admin@parity.io>"]
+description = "Tests fo trie-root crate"
+repository = "https://github.com/paritytech/trie"
+license = "Apache-2.0"
+categories = [ ]
+edition = "2018"
+
+[dependencies]

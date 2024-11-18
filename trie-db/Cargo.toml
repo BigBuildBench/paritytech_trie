@@ -1,0 +1,17 @@
+[package]
+name = "trie-db"
+version = "0.29.1"
+authors = ["Parity Technologies <admin@parity.io>"]
+description = "Merkle-Patricia Trie generic over key hasher and node encoding"
+repository = "https://github.com/paritytech/trie"
+license = "Apache-2.0"
+edition = "2018"
+
+[dependencies]
+
+[features]
+default = ["std"]
+std = [
+  "hash-db/std",
+  "rustc-hex",
+]

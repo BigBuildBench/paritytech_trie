@@ -1,0 +1,10 @@
+[package]
+name = "trie-bench"
+description = "Standard benchmarking suite for tries"
+version = "0.39.0"
+authors = ["Parity Technologies <admin@parity.io>"]
+repository = "https://github.com/paritytech/trie/"
+license = "Apache-2.0"
+edition = "2018"
+
+[dependencies]
